@@ -1,0 +1,245 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.containermenu{
+background-color:#87CEFA	;
+}
+nav ul {
+  position: relative;
+  top: 0;
+  left :0;
+  right:0px;
+  bottom: 0;
+  margin: 0 auto;
+  width: 613px;
+  list-style: none;
+}
+
+nav ul li{
+text-align: center;
+line-height: 50px;
+display: inline-block;
+
+}
+nav ul li a{
+  padding: 17px 23px;
+  text-decoration: none;
+
+}
+.active {
+  width: 80px;
+  height: 10px;
+
+}
+section{
+position: absolute;
+width: 100px;
+height: 100px;
+background-color: red;
+top: 0px;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto ;
+}
+section:hover{
+  width: 200px;
+  height: 200px;
+  background-color:#FF00FF;
+  transition-property:   width,  height,  background-color;
+  transition-duration: 1s;
+  transition-delay: 0s,1s,2s;
+
+}
+article{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:  auto ;
+
+  }
+article:hover{
+  width: 200px;
+  height: 200px;
+  border:solid 03px yellow;
+  background-color:#FF00FF;
+  transition-property:   width,  height,  background-color,border;
+  transition-duration: 1s;
+  transition-delay: 0s,1s,2s,3s;
+  box-sizing: border-box;
+
+}
+div{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color:#40E0D0	;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:  auto ;
+}
+div:hover{
+width: 200px;
+height: 200px;
+background-color:#00FF7F		;
+transition-property:   width,  height,  background-color;
+transition-duration: 1s;
+
+}
+
+div:nth-child(1){
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color:#FF4500	;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:  auto ;
+}
+
+div:hover>div:nth-child(1){
+  width: 90px;
+  height: 90px;
+  background-color:#000080;
+  border-radius: 50px;
+  transition-property:   width,  height,  background-color,border-radius;
+  transition-duration: 1s;
+  transition-delay: 2s,2s,3s,4s,5s;
+}
+footer{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color:#40E0D0	;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:  auto ;
+  transition-property: width, height,  background-color;
+  transition-duration: 1s;
+  transition-delay: 0s,1s,2s;
+}
+footer:hover{
+  width: 200px;
+  height: 200px;
+  background-color:#7CFC00;
+
+}
+.d1{
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-color:blue;
+  transition-property:  width, height, border-radius, background-color,margin;
+  transition-duration: 1s;
+  transition-delay: 2s,2s,3s,4s,5s;
+}
+footer:hover .d1{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: white;
+margin: 0px 20px;
+}
+.d2{
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  bottom: 0;
+  right: 0;
+  background-color:blue;
+  transition-property:  width, height, border-radius, background-color,margin;
+  transition-duration: 1s;
+  transition-delay: 2s,2s,3s,4s,5s;
+}
+footer:hover .d2{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: pink;
+margin: 0px 20px;
+}
+main{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color:#40E0D0	;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:  auto ;
+  transition-property: background-color, width, height;
+  transition-duration: 1s;
+  transition-delay: 0s,1s,2s;
+}
+main:hover{
+  width: 250px;
+  height: 250px;
+  background-color:#808000;
+}
+  .c1{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    top: 0;
+    right: 0;
+    background-color:yellow;
+    transition-property:  width, height, border-radius,margin;
+    transition-duration: 1s;
+    transition-delay: 2s,2s,3s,4s;
+  }
+  main:hover .c1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 20px ;}
+    .c2{
+      position: absolute;
+      width: 50px;
+      height: 60px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:yellow;
+      margin:auto;
+      transition-property:  width, height, border-radius, background-color,margin;
+      transition-duration: 1s;
+      transition-delay: 4s,5s,6s,7s,8s;
+    }
+    main:hover .c2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+      .c3{
+        position: absolute;
+        width: 50px;
+        height: 60px;
+        left: 0;
+        bottom: 0;
+        background-color:yellow;
+        transition-property:  width, height, border-radius,margin;
+        transition-duration: 1s;
+        transition-delay: 2s,2s,3s,4s;}
+        main:hover .c3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 20px ;}
